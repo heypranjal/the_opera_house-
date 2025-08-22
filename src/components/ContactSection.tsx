@@ -32,10 +32,13 @@ const ContactSection = () => {
             {/* Contact Information */}
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-serif text-luxury-gold mb-6">Get in Touch</h3>
+                <h3 className="text-2xl font-serif text-luxury-gold mb-6">
+                  Get in Touch
+                </h3>
                 <p className="text-luxury-text font-light leading-relaxed mb-8">
-                  Experience the epitome of luxury at The Opera House. Our dedicated team is ready to 
-                  assist you in creating unforgettable moments that reflect your distinguished taste.
+                  Experience the epitome of luxury at The Opera House. Our
+                  dedicated team is ready to assist you in creating
+                  unforgettable moments that reflect your distinguished taste.
                 </p>
               </div>
 
@@ -45,11 +48,14 @@ const ContactSection = () => {
                     <MapPin className="h-5 w-5 text-luxury-gold" />
                   </div>
                   <div>
-                    <h4 className="text-luxury-gold font-medium mb-1">Location</h4>
+                    <h4 className="text-luxury-gold font-medium mb-1">
+                      Location
+                    </h4>
                     <p className="text-luxury-text font-light">
-                      Lodhi Road, Next to Jawahar Lal Nehru Stadium
+                      Bhule ram Palace, near Prateek Laurel, Sarfabad Village,
+                      Sarfabad, Sector 73, Noida, Uttar Pradesh 201301
                       <br />
-                      New Delhi, India
+                      Noida, India
                     </p>
                   </div>
                 </div>
@@ -60,7 +66,9 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-luxury-gold font-medium mb-1">Phone</h4>
-                    <p className="text-luxury-text font-light">+91 9990528866</p>
+                    <p className="text-luxury-text font-light">
+                      +91 9911620620
+                    </p>
                   </div>
                 </div>
 
@@ -70,7 +78,9 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-luxury-gold font-medium mb-1">Email</h4>
-                    <p className="text-luxury-text font-light">events@theoperahouse.in</p>
+                    <p className="text-luxury-text font-light">
+                      events@theoperahouse.in
+                    </p>
                   </div>
                 </div>
 
@@ -79,7 +89,9 @@ const ContactSection = () => {
                     <Clock className="h-5 w-5 text-luxury-gold" />
                   </div>
                   <div>
-                    <h4 className="text-luxury-gold font-medium mb-1">Operating Hours</h4>
+                    <h4 className="text-luxury-gold font-medium mb-1">
+                      Operating Hours
+                    </h4>
                     <p className="text-luxury-text font-light">
                       Monday - Sunday: 9:00 AM - 11:00 PM
                       <br />
@@ -92,19 +104,25 @@ const ContactSection = () => {
 
             {/* Contact Form */}
             <Card className="bg-luxury-dark border-luxury-gold/20 p-8 shadow-elegant">
-              <h3 className="text-2xl font-serif text-luxury-gold mb-6">Request Information</h3>
+              <h3 className="text-2xl font-serif text-luxury-gold mb-6">
+                Request Information
+              </h3>
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-luxury-text font-light mb-2">Full Name</label>
-                    <Input 
+                    <label className="block text-luxury-text font-light mb-2">
+                      Full Name
+                    </label>
+                    <Input
                       className="bg-luxury-dark-lighter border-luxury-gold/30 text-luxury-text focus:border-luxury-gold"
                       placeholder="Your name"
                     />
                   </div>
                   <div>
-                    <label className="block text-luxury-text font-light mb-2">Phone Number</label>
-                    <Input 
+                    <label className="block text-luxury-text font-light mb-2">
+                      Phone Number
+                    </label>
+                    <Input
                       className="bg-luxury-dark-lighter border-luxury-gold/30 text-luxury-text focus:border-luxury-gold"
                       placeholder="Your phone"
                     />
@@ -112,8 +130,10 @@ const ContactSection = () => {
                 </div>
 
                 <div>
-                  <label className="block text-luxury-text font-light mb-2">Email Address</label>
-                  <Input 
+                  <label className="block text-luxury-text font-light mb-2">
+                    Email Address
+                  </label>
+                  <Input
                     type="email"
                     className="bg-luxury-dark-lighter border-luxury-gold/30 text-luxury-text focus:border-luxury-gold"
                     placeholder="your.email@example.com"
@@ -121,38 +141,46 @@ const ContactSection = () => {
                 </div>
 
                 <div>
-                  <label className="block text-luxury-text font-light mb-2">Event Type</label>
-                  <Input 
+                  <label className="block text-luxury-text font-light mb-2">
+                    Event Type
+                  </label>
+                  <Input
                     className="bg-luxury-dark-lighter border-luxury-gold/30 text-luxury-text focus:border-luxury-gold"
                     placeholder="Wedding, Corporate, Social, etc."
                   />
                 </div>
 
                 <div>
-                  <label className="block text-luxury-text font-light mb-2">Event Date</label>
-                  <Input 
+                  <label className="block text-luxury-text font-light mb-2">
+                    Event Date
+                  </label>
+                  <Input
                     type="date"
                     className="bg-luxury-dark-lighter border-luxury-gold/30 text-luxury-text focus:border-luxury-gold"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-luxury-text font-light mb-2">Guest Count</label>
-                  <Input 
+                  <label className="block text-luxury-text font-light mb-2">
+                    Guest Count
+                  </label>
+                  <Input
                     className="bg-luxury-dark-lighter border-luxury-gold/30 text-luxury-text focus:border-luxury-gold"
                     placeholder="Approximate number of guests"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-luxury-text font-light mb-2">Additional Details</label>
-                  <Textarea 
+                  <label className="block text-luxury-text font-light mb-2">
+                    Additional Details
+                  </label>
+                  <Textarea
                     className="bg-luxury-dark-lighter border-luxury-gold/30 text-luxury-text focus:border-luxury-gold min-h-[100px]"
                     placeholder="Tell us about your vision for this event..."
                   />
                 </div>
 
-                <Button 
+                <Button
                   type="submit"
                   size="lg"
                   className="w-full bg-luxury-gold hover:bg-luxury-gold-light text-luxury-dark font-medium py-4 text-lg tracking-wide shadow-luxury transition-all duration-300 hover:scale-105"
