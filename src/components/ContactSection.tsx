@@ -79,7 +79,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-luxury-gold font-medium mb-1">Email</h4>
                     <p className="text-luxury-text font-light">
-                      events@theoperahouse.in
+                      theoperahousenoida@gmail.com
                     </p>
                   </div>
                 </div>
