@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import grandBallroom from "@/assets/grand-ballroom.jpg";
 import mystHall from "@/assets/myst-hall.jpg";
 import openCanvas from "@/assets/open-canvas.jpg";
 import { motion } from "framer-motion";
@@ -8,26 +7,26 @@ import { motion } from "framer-motion";
 const SpacesSection = () => {
   const spaces = [
     {
-      title: "The Grand Ballroom",
+      title: "The Ballroom",
       description: "A magnificent predesigned space spanning 45,000 sq.ft. with a capacity of 1,000-1,500 guests.",
-      image: grandBallroom,
+      image: "https://i.ibb.co/60ZbpKgD/SP-0388.jpg",
       capacity: "1,000-1,500",
       area: "45,000 sq.ft."
     },
     {
-      title: "Myst",
+      title: "Open Hall",
       description: "A predesigned hall spanning across 14,000 sq.ft. is perfect for intimate gatherings, with 350-500 guests.",
-      image: mystHall,
+      image: "https://i.ibb.co/1YvPzBbW/SP-2684.jpg",
       capacity: "350-500",
       area: "14,000 sq.ft."
     },
-    {
-      title: "Open Canvas",
-      description: "A sprawling fully customizable outdoor area for up to 3,000 guests.",
-      image: openCanvas,
-      capacity: "Up to 3,000",
-      area: "Outdoor"
-    }
+    // {
+    //   title: "Open Canvas",
+    //   description: "A sprawling fully customizable outdoor area for up to 3,000 guests.",
+    //   image: openCanvas,
+    //   capacity: "Up to 3,000",
+    //   area: "Outdoor"
+    // }
   ];
 
   return (

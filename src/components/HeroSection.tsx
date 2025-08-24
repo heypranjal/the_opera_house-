@@ -1,30 +1,24 @@
 import { Button } from "@/components/ui/button";
-import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 2.5;
-    }
-  }, []);
-
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Video */}
-      <div className="absolute inset-0">
-        <video
-          ref={videoRef}
-          src="https://xyxkyeoohmpdcuepicnf.supabase.co/storage/v1/object/public/hero//heroC.mp4"
-          className="w-full h-full object-cover"
-          autoPlay
-          loop
-          muted
-          playsInline
+      {/* YouTube Background Video */}
+      <div className="absolute inset-0" style={{ right: '1in' }}>
+        <iframe
+          src="https://www.youtube.com/embed/Jw2yJ_EaqPI?autoplay=1&loop=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&cc_load_policy=0&playsinline=1&disablekb=1&fs=0&playlist=Jw2yJ_EaqPI&vq=hd1080"
+          title="Hero Video"
+          className="absolute inset-0 w-full h-full"
+          style={{
+            minWidth: '100vw',
+            minHeight: '100vh',
+            objectFit: 'cover',
+            pointerEvents: 'none'
+          }}
+          allow="autoplay; encrypted-media"
+          allowFullScreen={false}
         />
-        <div className="absolute inset-0 video-overlay"></div>
       </div>
 
       {/* Content with fade-in animation */}
