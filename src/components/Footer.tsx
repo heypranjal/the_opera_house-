@@ -72,7 +72,7 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-luxury-gold flex-shrink-0 mt-0.5" />
                 <div className="text-luxury-text font-light text-sm">
                   Bhule ram Palace, near Prateek Laurel, Sarfabad Village,
-                  Sarfabad, Sector 73, Noida, Uttar Pradesh 201301 Noida, India
+                  Sarfabad, Sector 73, Noida, Uttar Pradesh 201307 Noida, India
                 </div>
               </div>
               <div className="flex items-center space-x-3">
