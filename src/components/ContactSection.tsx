@@ -53,7 +53,7 @@ const ContactSection = () => {
                     </h4>
                     <p className="text-luxury-text font-light">
                       Bhule ram Palace, near Prateek Laurel, Sarfabad Village,
-                      Sarfabad, Sector 73, Noida, Uttar Pradesh 201301
+                      Sarfabad, Sector 73, Noida, Uttar Pradesh 201307
                       <br />
                       Noida, India
                     </p>
